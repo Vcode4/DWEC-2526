@@ -1,0 +1,14 @@
+*{
+    background-color: greenyellow;
+}
+
+button{
+background-color: white;
+}
+
+.foto{
+    background-image: url('foto.jpg');
+    height: 1200px;
+    width: 1200px;
+    background-repeat: no-repeat;
+}
