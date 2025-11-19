@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculadora.js" defer></script>
+    <link href="calculadora.css" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="contenedor-principal" class="contenedor-principal">
+    <div id="operadores" class="contenedor-operadores">
+        <form >
+            Operador 1:<input id='operador1' type="number" ><br><br>
+            Operador 2:<input id='operador2' type="number" >
+        </form>
+    </div>
+    <div id="botones" class="contenedor-botones"><br>
+        <input class="sumar" type="button" value="(+)SUMAR" onclick="sumar()">
+        <input class="restar" type="button" value="(-)RESTAR" onclick="restar()">
+        <input class="multiplicar" type="button" value="(X)MULTIPLICAR" onclick="multiplicar()">
+        <input class="dividir" type="button" value="(÷)DIVIDIR" onclick="dividir()">
+    </div>
+    <br><br>    
+    <div id="resultado">El resultado es: </div>
+
+    <div id="log" class="log">
+
+    </div>
+
+    <input type="button" value="Limpiar LOG" onclick="limpiarLog()">
+    </div>
+
+</body>
+</html>
