@@ -1,0 +1,32 @@
+body{
+    font-weight: bold;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    
+}
+
+.pad{
+    width: 100px;
+    height: 100px;
+    background: #db7d7d;
+    border-radius: 15px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
+}
+
+.coor{
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
