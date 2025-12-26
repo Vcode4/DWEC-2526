@@ -1,0 +1,21 @@
+ body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: rgb(148, 237, 148);
+    font-size: 20px;
+ }
+ .conte{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 0 5px rgb(255, 179, 28);
+    font-family:'Courier New', Courier, monospace; 
+    background-color: rgb(237, 230, 10);
+}
