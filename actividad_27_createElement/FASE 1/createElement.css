@@ -1,0 +1,34 @@
+.circulo{
+    width: 200px;
+    aspect-ratio: 1 /1;
+    border: solid 1px black;
+    border-radius: 50%;
+
+    /* centro contenido*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circuloRojo{
+    /*
+    borde rojo de 5 px dasheado
+    */
+    width: 200px;
+    aspect-ratio: 1 /1;
+
+    border-radius: 50%;
+    border: 5px dashed red;
+
+    /* centro contenido*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrado{
+    background-color: pink;
+    border: 5px dotted blue;
+    width: 200px;
+    height: 200px;
+}

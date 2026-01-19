@@ -1,0 +1,75 @@
+body{
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+}
+
+.sprite1{
+     width: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image: url("creeper.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.sprite2{
+     width: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image: url("Mini-Enderman.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.sprite3{
+     width: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image: url("bee.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.sprite4{
+     width: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image: url("gasp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.sprite5{
+     width: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image: url("zombie.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+.boton{
+    background-color: rgb(188, 78, 96);
+    width: 100px;
+    height: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+
+}
