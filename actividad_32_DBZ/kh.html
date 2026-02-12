@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="kh.css" rel="stylesheet">
+    <script src="kh.js" defer></script>
+    <title> Kingdom Hearts</title>
+</head>
+<body>
+
+<div class="panel">
+  <h2>Kingdom Hearts</h2>
+
+  <input type="text" id="nombre"placeholder="Nombre del personaje"> 
+
+  <button onclick="agregar()">Añadir Personaje (Push)</button>
+  <button onclick="eliminarUltimo()">Eliminar Último (Pop)</button>
+  <button onclick="agregarInicio()">Añadir al inicio (Unshift)</button>
+  <button onclick="eliminarPrimero()">Eliminar Primero (Shift)</button>
+  <button onclick="ordenar()">Ordenar</button>
+  <button onclick="limpiar()">Limpiar Lista</button>
+
+  <div id="informacion">
+
+  </div>
+
+</div>
+</body>
+</html>
