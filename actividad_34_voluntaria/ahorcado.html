@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="ahorcado.css">
+    <script src="ahorcado.js" defer></script>
+</head>
+<body>
+
+    <h1>Juego del Ahorcado</h1>
+    <div id="ahorcado">
+    <div class="poste base"></div>
+    <div class="poste vertical"></div>
+    <div class="poste horizontal"></div>
+    <div class="poste cuerda"></div>
+
+    <div class="muneco cabeza"></div>
+    <div class="muneco cuerpo"></div>
+    <div class="muneco brazo izquierdo"></div>
+    <div class="muneco brazo derecho"></div>
+    <div class="muneco pierna izquierda"></div>
+    <div class="muneco pierna derecha"></div>
+</div>
+
+    <div id="palabraOculta"></div>
+
+    <input type="text" id="letra" maxlength="1" placeholder="Introduce una letra">
+    <button id="botonProbar">Probar letra</button>
+
+    <p>Intentos restantes: <span id="intentos"></span></p>
+
+    <p id="mensaje"></p>
+
+</body>
+</html>
