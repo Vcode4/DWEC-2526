@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 36 - POO. Videojuego de Consola</title>
+    <link rel="stylesheet" href="videojuegoconsola.css">
+    <script src="videojuegoconsola.js" defer></script>
+</head>
+<body>
+    <h1>COMBATE POKÉMON</h1>
+
+    <div id="escenario">
+
+        <div class="personaje" id="pokemon1">
+            <h2 id="nombre1"></h2>
+            <img id="imagen1" src="rayquaza.png">
+            <div class="vida-container">
+                <div id="vida1-barra" class="vida-barra"></div>
+            </div>
+        </div>
+
+        <div class="personaje" id="pokemon2">
+            <h2 id="nombre2"></h2>
+            <img id="imagen2" src="pikachu.png">
+            <div class="vida-container">
+                <div id="vida2-barra" class="vida-barra"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="mensaje-final" class="oculto">
+    <h1 id="ganador"></h1>
+    <button id="reiniciar">Reiniciar Combate</button>
+</div>
+
+    <div id="botones">
+        <button id="atacar1">Rayquaza Ataca</button>
+        <button id="atacar2">Pikachu Ataca</button>
+    </div>
+
+    <div id="instrucciones">
+    <p class="titulo-instrucciones">Controles del Combate</p>
+    <p><strong> Tecla A</strong> → Rayquaza ataca</p>
+    <p><strong>Tecla L</strong> → Pikachu ataca</p>
+    <p>(o haciendo clic en los botones)</p>
+
+</div>
+
+</body>
+
+</html>
