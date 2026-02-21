@@ -1,0 +1,61 @@
+body {
+    font-family: monospace;
+    font-size: large;
+    background-color: #f2f2f2;
+    text-align: center;
+    background-image: url("fondo_cuadrados.jpg");
+    background-size: cover;
+
+}
+.contenedor {
+    display: flex;              
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.formulario {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px auto;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(5, 176, 255, 0.473);
+}
+
+input {
+    width: 90%;
+    padding: 6px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+#ListaTareas {
+    list-style: none;
+    padding: 0;
+    width: 60%;
+}
+#ListaTareas li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.completada{
+    text-decoration: line-through;
+    color: red;
+}
