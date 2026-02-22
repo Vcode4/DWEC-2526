@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combate por Turnos - Pokémon</title>
+    <link rel="stylesheet" href="juegofinal.css">
+    <script src="juegofinal.js" defer></script>
+</head>
+<body>
+    <div id="panel-info">
+        <h1>Combate por Turnos - Pokémon</h1>
+
+        <div id="info-jugadores">
+            <span id="titulo-heroes">MI EQUIPO</span>
+            <span id="titulo-villano">ENTRENADOR</span>
+        </div>
+
+        <div id="turno">Elige tu Pokémon para empezar</div>
+    </div>
+
+    <div id="tableros">
+        <div>
+            <div id="mazo-heroes" class="mazo"></div>
+        </div>
+
+        <div>
+            <div id="mazo-villanos" class="mazo"></div>
+        </div>
+    </div>
+
+    <div id="zona-combate">
+        <div id="carta-heroe" class="carta-combate"></div>
+
+        <div id="consola"></div>
+
+        <div id="carta-villano" class="carta-combate"></div>
+    </div>
+
+    <div id="acciones"></div>
+
+    <div id="mensaje-final" class="oculto">
+        <h1 id="ganador"></h1>
+        <button id="reiniciar">Reiniciar Juego</button>
+    </div>
+
+</body>
+</html>

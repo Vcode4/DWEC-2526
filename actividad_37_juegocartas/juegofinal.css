@@ -1,0 +1,161 @@
+body {
+    background-image:url('wallpaperflare.com_wallpaper.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#panel-info {
+    width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.55);
+    border: 3px solid #ffcc00;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+}
+
+#panel-info h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #ffcc00;
+}
+
+#info-jugadores {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#info-jugadores span {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#titulo-heroes {
+    background: rgba(0, 255, 0, 0.3);
+    border: 2px solid #00ff00;
+}
+
+#titulo-villano {
+    background: rgba(255, 0, 0, 0.3);
+    border: 2px solid #ff4444;
+}
+
+#turno {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #00eaff;
+}
+
+#tableros {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.mazo {
+    display: flex;
+    gap: 15px;
+}
+
+.carta {
+    width: 140px;
+    background: white;
+    border: 3px solid #ffcc00;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.carta:hover {
+    transform: scale(1.05);
+}
+
+.carta img {
+    width: 100%;
+}
+
+.carta-combate {
+    width: 200px;
+    height: 300px;
+    background: white;
+    border: 4px solid #1976d2;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#zona-combate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 30px;
+}
+
+#consola {
+    width: 500px;
+    height: 120px;
+    background: #ea9cf5;
+    padding: 10px;
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 13px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: left;
+}
+
+.log-heroe {
+    color: #0f0bdb;
+    font-weight: bold;
+}
+
+.log-villano {
+    color: #830ba1;
+    font-weight: bold;
+}
+
+#acciones button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#acciones button:nth-child(1) {
+    background-color: #b6ffb3; 
+}
+
+#acciones button:nth-child(2) {
+    background-color: #ffb3d9; 
+}
+
+#acciones button:nth-child(3) {
+    background-color: #b3e0ff; 
+}
+
+#acciones button:hover {
+    transform: scale(1.05);
+}
+
+.oculto {
+    display: none;
+}
+
+.derrotado {
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+
+
